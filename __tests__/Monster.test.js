@@ -1,5 +1,4 @@
-const Monster = require("../src/Monster");
-
+import { Monster } from "../src/Monster.mjs";
 describe(`Monster`, () => {
   let myMonster = new Monster("Grendel");
   beforeEach(() => {});

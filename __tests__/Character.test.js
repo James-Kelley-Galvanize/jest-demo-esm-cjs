@@ -1,4 +1,4 @@
-const Character = require("../src/Character");
+import { Character } from "../src/Character.mjs";
 
 describe(`Character Class`, () => {
   let myChar;

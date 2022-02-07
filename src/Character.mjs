@@ -1,4 +1,4 @@
-class Character {
+export class Character {
   constructor(name, character_class) {
     this.name = name;
     this.hp = 100;
@@ -11,4 +11,4 @@ class Character {
   attack() {}
 }
 
-module.exports = Character;
+// module.exports = Character;

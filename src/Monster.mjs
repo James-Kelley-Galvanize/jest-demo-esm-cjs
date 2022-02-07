@@ -1,8 +1,8 @@
-class Monster {
+export class Monster {
   constructor() {}
   attack(target) {
     target.hp -= this.attackPower;
   }
 }
 
-module.exports = Monster;
+// module.exports = Monster;

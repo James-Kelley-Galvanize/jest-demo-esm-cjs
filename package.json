@@ -3,10 +3,11 @@
     "jest": "^27.5.0"
   },
   "scripts": {
-    "test": "jest",
-    "autotest": "jest --coverage --watchAll"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "autotest": "node --experimental-vm-modules node_modules/jest/bin/jest.js --coverage --watchAll"
   },
   "name": "jest-demo",
+  "type": "module",
   "version": "1.0.0",
   "main": "jest.config.js",
   "dependencies": {
